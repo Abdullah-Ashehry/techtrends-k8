@@ -4,7 +4,7 @@ namespace:
 appname: techtrends
 
 image:
-  repository: techtrends
+  repository: 3bady00/techtrends
   tag: latest
   imagePullPolicy: IfNotPresent
 
