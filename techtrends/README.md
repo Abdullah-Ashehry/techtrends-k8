@@ -1,7 +1,7 @@
 # TechTreds Web Application
 
 This is a Flask application that lists the latest articles within the cloud-native ecosystem.
-
+Github action
 ## Run 
 
 To run this application there are 2 steps required:
