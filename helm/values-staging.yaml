@@ -8,8 +8,8 @@ replicaCount: 3
 
 resources:
   requests:
-    cpu: "90m"         # CPU request in millicores (90m = 0.09 cores)
+    CPU: "90m"         # CPU request in millicores (90m = 0.09 cores)
     memory: "300Mi"    # Memory request in MiB
   limits:
-    cpu: "128m"        # CPU limit in millicores (128m = 0.128 cores)
+    CPU: "128m"        # CPU limit in millicores (128m = 0.128 cores)
     memory: "500Mi"    # Memory limit in MiB
