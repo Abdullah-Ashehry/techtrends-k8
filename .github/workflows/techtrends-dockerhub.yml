@@ -41,4 +41,4 @@ jobs:
           context: ./techtrends  # Ensure the path is correct relative to the repository root
           file: ./techtrends/Dockerfile  # Path to Dockerfile
           push: true  # Set to true to push the image to DockerHub
-          tags: 3bady00/techtrends:v1.0.0  # Replace with your DockerHub username and image name
+          tags: 3bady00/techtrends:latest  # Replace with your DockerHub username and image name
