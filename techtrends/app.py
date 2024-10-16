@@ -29,8 +29,8 @@ logger.addHandler(console_handler)
 # This function connects to database with the name `database.db`
 db_connection_counter = 0 
 def get_db_connection():
-    global db_connection_counter  # Declare the global variable
-    db_connection_counter += 1  # Increment the connection counter
+    global db_connection_counter
+    db_connection_counter += 1
     connection = sqlite3.connect('database.db')
     connection.row_factory = sqlite3.Row
     app.logger.debug('retuning DB connection')
