@@ -1,0 +1,76 @@
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.20.10.3:3111/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 777-113-662
+Status request successfull
+127.0.0.1 - - [16/Oct/2024 21:20:10] "GET /healthz HTTP/1.1" 200 -
+Status request successfull
+127.0.0.1 - - [16/Oct/2024 21:20:11] "GET /healthz HTTP/1.1" 200 -
+Status request successfull
+127.0.0.1 - - [16/Oct/2024 21:20:11] "GET /healthz HTTP/1.1" 200 -
+Status request successfull
+127.0.0.1 - - [16/Oct/2024 21:20:11] "GET /healthz HTTP/1.1" 200 -
+Metrics request successful
+127.0.0.1 - - [16/Oct/2024 21:20:27] "GET /metrics HTTP/1.1" 200 -
+Metrics request successful
+127.0.0.1 - - [16/Oct/2024 21:20:31] "GET /metrics HTTP/1.1" 200 -
+Metrics request successful
+127.0.0.1 - - [16/Oct/2024 21:20:31] "GET /metrics HTTP/1.1" 200 -
+Metrics request successful
+127.0.0.1 - - [16/Oct/2024 21:20:31] "GET /metrics HTTP/1.1" 200 -
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.20.10.3:3111/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 777-113-662
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.20.10.3:3111/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 777-113-662
+Status request successfull
+127.0.0.1 - - [16/Oct/2024 21:27:27] "GET /healthz HTTP/1.1" 200 -
+Status request successfull
+127.0.0.1 - - [16/Oct/2024 21:27:29] "GET /healthz HTTP/1.1" 200 -
+retuning DB connection
+getting all the posts
+127.0.0.1 - - [16/Oct/2024 21:27:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2024 21:27:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+returning create.html
+127.0.0.1 - - [16/Oct/2024 21:27:40] "GET /create HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2024 21:27:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+retuning DB connection
+record inserted
+127.0.0.1 - - [16/Oct/2024 21:27:44] "[32mPOST /create HTTP/1.1[0m" 302 -
+retuning DB connection
+getting all the posts
+127.0.0.1 - - [16/Oct/2024 21:27:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2024 21:27:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+ * Detected change in '/Users/abdullahashehry/local-dev/python-helloworld/project/techtrends/app.py', reloading
+ * Restarting with stat
+2024-10-16 21:28:48,502 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-10-16 21:28:48,503 - werkzeug - INFO -  * Running on http://172.20.10.3:3111/ (Press CTRL+C to quit)
+2024-10-16 21:28:48,507 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 21:28:48,716 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 21:28:48,744 - werkzeug - INFO -  * Debugger PIN: 777-113-662
+2024-10-16 21:28:50,986 - app - DEBUG - retuning DB connection
+2024-10-16 21:28:50,991 - app - DEBUG - getting all the posts
+2024-10-16 21:28:51,002 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:51] "GET / HTTP/1.1" 200 -
+2024-10-16 21:28:51,254 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-16 21:28:51,716 - app - DEBUG - retuning DB connection
+2024-10-16 21:28:51,716 - app - DEBUG - getting all the posts
+2024-10-16 21:28:51,717 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:51] "GET / HTTP/1.1" 200 -
+2024-10-16 21:28:51,741 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-16 21:28:51,874 - app - DEBUG - retuning DB connection
+2024-10-16 21:28:51,875 - app - DEBUG - getting all the posts
+2024-10-16 21:28:51,877 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:51] "GET / HTTP/1.1" 200 -
+2024-10-16 21:28:51,899 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-16 21:29:08,536 - werkzeug - INFO -  * Detected change in '/Users/abdullahashehry/local-dev/python-helloworld/project/techtrends/app.py', reloading
+2024-10-16 21:29:08,579 - werkzeug - INFO -  * Restarting with stat
+2024-10-16 21:29:08,847 - werkzeug - WARNING -  * Debugger is active!
+2024-10-16 21:29:08,875 - werkzeug - INFO -  * Debugger PIN: 777-113-662
