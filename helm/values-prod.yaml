@@ -11,8 +11,8 @@ image:
 
 resources:
   requests:
-    cpu: "128m"       
+    CPU: "128m"       
     memory: "350Mi" 
   limits:
-    cpu: "256m"
+    CPU: "256m"
     memory: "500Mi"
