@@ -1,5 +1,5 @@
 import sqlite3
-
+import os
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
 import logging
@@ -25,6 +25,15 @@ console_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
+# Function to dynamically set log level based on environment variable
+def set_log_level():
+    log_level = os.getenv('LOG_LEVEL', 'DEBUG').upper()  # Default to ERROR if not set
+    logger.setLevel(getattr(logging, log_level, logging.ERROR))  # Use ERROR if the level is invalid
+    file_handler.setLevel(logger.level)
+    console_handler.setLevel(logger.level)
+
+# Set log level at the start
+set_log_level()
 # Function to get a database connection.
 # This function connects to database with the name `database.db`
 db_connection_counter = 0 
@@ -61,7 +70,7 @@ def index():
 def post(post_id):
     post = get_post(post_id)
     if post is None:
-        app.logger.debug('no posts available')
+        logger.error('no posts available')
         return render_template('404.html'), 404
     else:
         app.logger.debug('returning post')
@@ -80,7 +89,7 @@ def create():
         content = request.form['content']
 
         if not title:
-            app.logger.debug('No title provided')
+            app.logger.error('No title provided')
             flash('Title is required!')
         else:
             connection = get_db_connection()

@@ -74,3 +74,82 @@ getting all the posts
 2024-10-16 21:29:08,579 - werkzeug - INFO -  * Restarting with stat
 2024-10-16 21:29:08,847 - werkzeug - WARNING -  * Debugger is active!
 2024-10-16 21:29:08,875 - werkzeug - INFO -  * Debugger PIN: 777-113-662
+2024-10-18 01:53:07,364 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-10-18 01:53:07,365 - werkzeug - INFO -  * Running on http://192.168.0.144:3111/ (Press CTRL+C to quit)
+2024-10-18 01:53:29,205 - app - DEBUG - Status request successfull
+2024-10-18 01:53:29,208 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:53:29] "GET /healthz HTTP/1.1" 200 -
+2024-10-18 01:53:32,809 - app - DEBUG - retuning DB connection
+2024-10-18 01:53:32,817 - app - DEBUG - getting all the posts
+2024-10-18 01:53:32,832 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:53:32] "GET / HTTP/1.1" 200 -
+2024-10-18 01:53:32,871 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:53:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:53:36,373 - app - DEBUG - retuning DB connection
+2024-10-18 01:53:36,375 - app - DEBUG - getting all the posts
+2024-10-18 01:53:36,378 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:53:36] "GET / HTTP/1.1" 200 -
+2024-10-18 01:53:36,403 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:53:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:54:10,268 - app - DEBUG - returning create.html
+2024-10-18 01:54:10,299 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:54:10] "GET /create HTTP/1.1" 200 -
+2024-10-18 01:54:10,348 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:54:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:54:13,045 - app - DEBUG - No title provided
+2024-10-18 01:54:13,045 - app - DEBUG - returning create.html
+2024-10-18 01:54:13,054 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:54:13] "POST /create HTTP/1.1" 200 -
+2024-10-18 01:54:13,075 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:54:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:55:25,054 - app - DEBUG - retuning DB connection
+2024-10-18 01:55:25,056 - app - DEBUG - getting all the posts
+2024-10-18 01:55:25,065 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:55:25] "GET / HTTP/1.1" 200 -
+2024-10-18 01:55:25,102 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:55:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:55:26,293 - app - DEBUG - retuning DB connection
+2024-10-18 01:55:26,329 - app - DEBUG - returning post
+2024-10-18 01:55:26,335 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:55:26] "GET /2 HTTP/1.1" 200 -
+2024-10-18 01:55:26,367 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:55:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:55:28,966 - app - DEBUG - retuning DB connection
+2024-10-18 01:55:28,971 - app - DEBUG - no posts available
+2024-10-18 01:55:28,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:55:28] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 01:55:29,005 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:55:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:56:23,432 - app - DEBUG - retuning DB connection
+2024-10-18 01:56:23,453 - app - DEBUG - no posts available
+2024-10-18 01:56:23,457 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:56:23] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 01:56:23,481 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:56:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 01:56:23,645 - app - DEBUG - retuning DB connection
+2024-10-18 01:56:23,651 - app - DEBUG - no posts available
+2024-10-18 01:56:23,652 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:56:23] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 01:56:23,663 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 01:56:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:01:02,091 - app - DEBUG - retuning DB connection
+2024-10-18 02:01:02,095 - app - DEBUG - no posts available
+2024-10-18 02:01:02,097 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:01:02] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:01:02,131 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:01:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:01:02,275 - app - DEBUG - retuning DB connection
+2024-10-18 02:01:02,296 - app - DEBUG - no posts available
+2024-10-18 02:01:02,296 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:01:02] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:01:02,310 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:01:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:25,344 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:25,360 - app - DEBUG - no posts available
+2024-10-18 02:03:25,366 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:25,393 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:25,485 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:25,496 - app - DEBUG - no posts available
+2024-10-18 02:03:25,497 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:25,512 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:25,627 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:25,632 - app - DEBUG - no posts available
+2024-10-18 02:03:25,634 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:25,662 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:25,807 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:25,813 - app - DEBUG - no posts available
+2024-10-18 02:03:25,815 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:25,829 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:35,611 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-10-18 02:03:35,612 - werkzeug - INFO -  * Running on http://192.168.0.144:3111/ (Press CTRL+C to quit)
+2024-10-18 02:03:41,533 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:41,548 - root - ERROR - no posts available
+2024-10-18 02:03:41,560 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:41,600 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:41,643 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:41,647 - root - ERROR - no posts available
+2024-10-18 02:03:41,647 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:41,658 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-10-18 02:03:41,761 - app - DEBUG - retuning DB connection
+2024-10-18 02:03:41,765 - root - ERROR - no posts available
+2024-10-18 02:03:41,766 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "[33mGET /15 HTTP/1.1[0m" 404 -
+2024-10-18 02:03:41,780 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
