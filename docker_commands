@@ -40,3 +40,13 @@ docker logs -f 36f6078cbfd8
 2024-10-16 18:30:41,550 - werkzeug - INFO - 172.17.0.1 - - [16/Oct/2024 18:30:41] "GET /health HTTP/1.1" 404 -
 2024-10-16 18:30:43,649 - app - DEBUG - Status request successfull
 2024-10-16 18:30:43,649 - werkzeug - INFO - 172.17.0.1 - - [16/Oct/2024 18:30:43] "GET /healthz HTTP/1.1" 200 -
+
+
+
+# ERROR LOGS
+
+Message: 'getting post id'
+Arguments: (15,)
+2024-10-18 02:03:41,765 - root - ERROR - no posts available
+2024-10-18 02:03:41,766 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "GET /15 HTTP/1.1" 404 -
+2024-10-18 02:03:41,780 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2024 02:03:41] "GET /static/css/main.css HTTP/1.1" 304 -
